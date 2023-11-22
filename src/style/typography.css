@@ -1,0 +1,64 @@
+
+.title1 {
+    font-size: clamp(2rem, 5.5vw, var(--font-size-6));
+    font-weight: var(--font-weight-4);
+    font-style: var(--font-style);
+    line-height: var(--line-height-2);
+}
+
+.title2 {
+    font-size: clamp(1.7rem, 5.5vw, var(--font-size-4));
+    font-style: var(--font-style);
+    font-weight: var(--font-weight-4);
+    line-height: var(--line-height-2);
+}
+
+.title3 {
+    font-size: clamp(1.8rem, 5.5vw, var(--font-size-5));
+    font-style: var(--font-style);
+    font-weight: var(--font-weight-4);
+    line-height: var(--line-height-2);
+}
+
+.title4 {
+    font-size: clamp(0.5rem, 5.5vw, var(--font-size-3));
+    font-style: var(--font-style);
+    font-weight: var(--font-weight-4);
+    line-height: var(--line-height-2);
+}
+
+.label {
+    font-size: clamp(0.5rem, 5.5vw, var(--font-size-1));
+    font-style: var(--font-style);
+    font-weight: var(--font-weight-2);
+    line-height: var(--line-height-2);
+    color: var(--color-white);
+}
+
+.link {
+    color: var(--color-secondary);
+    font-size: clamp(0.5rem, 5.5vw, var(--font-size-2));
+    font-style: var(--font-style);
+    font-weight: var(--font-weight-3);
+    line-height: var(--line-height-1);
+}
+
+.link:hover {
+    color: var(--color-primary-hover);
+   text-decoration-line: underline;
+}
+
+.paragraph {
+    font-size: clamp(0.5rem, 5.5vw, var(--font-size-2));
+    font-style: var(--font-style);
+    font-weight: var(--font-weight-1);
+    line-height: var(--line-height-1);
+}
+
+.name {
+    color: var(--color-primary);
+    font-size: clamp(0.5rem, 5.5vw, var(--font-size-2));
+    font-style: var(--font-style);
+    font-weight: var(--font-weight-1);
+    line-height: var(--line-height-2);
+}

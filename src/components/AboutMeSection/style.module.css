@@ -1,0 +1,43 @@
+.flexbox > h2{
+    width: 190px;
+    height: 44px;
+}
+
+.flexbox > p{
+    width: 331px;
+    height: 270px;
+}
+
+@media (min-width: 768px) {
+    .flexbox{
+        display: flex;
+        justify-content: space-between;
+        height: 283px;
+    }
+    
+    .flexbox > p{
+        width: 413px; 
+    }
+}
+
+@media (min-width: 1024px) {
+    .flexbox{
+        height: 342px;
+    }
+    
+    .flexbox > p{
+        width: 278px; 
+        height: 150px
+    }
+}
+
+
+@media (min-width: 1440px) {
+    .flexbox{
+        height: 283px;
+    }
+    
+    .flexbox > p{
+        width: 544px; 
+    }
+}

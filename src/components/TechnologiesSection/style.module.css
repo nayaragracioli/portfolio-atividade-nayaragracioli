@@ -1,0 +1,56 @@
+.flexbox {
+    width: 371px;
+    height: 474px;
+    margin-bottom: 30px;
+}
+
+.flexbox>h2 {
+    width: 218px;
+    height: 52px;
+}
+
+.flexbox>ul {
+    width: 332px;
+}
+
+@media (min-width:768px) {
+    .flexbox {
+        width: 752px;
+        height: 350px;
+    }
+
+    .flexbox>h2 {
+        height: 66px;
+    }
+
+    .flexbox>ul {
+        width: 654px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+}
+
+@media (min-width:1024px) {
+    .flexbox {
+        width: 645px;
+    }
+}
+
+@media (min-width:1440px) {
+    .flexbox {
+        width: 902px;
+        height: 350px;
+    }
+
+    .flexbox>h2 {
+        width: 242px;
+    }
+
+    .flexbox>ul {
+        width: 902px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+}

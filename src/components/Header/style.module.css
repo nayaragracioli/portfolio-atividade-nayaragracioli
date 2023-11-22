@@ -1,0 +1,48 @@
+.flexbox {
+    height: 124px;
+    width: 100%;
+
+    margin-top: 22px;
+    gap: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexbox>div {
+    margin: 10px 0 10px 0;
+    display: flex;
+    gap: 65px;
+}
+
+
+@media (min-width: 768px) {
+    .flexbox {
+        height: 39px;
+        
+        flex-direction: row;
+        justify-content: space-between;
+
+        width: 85%;
+        max-width: 1400px;
+
+        margin-left: 41px;
+        gap: 60px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .flexbox {
+        width: 63%;
+        margin-left: 222px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .flexbox {
+        width: 60%;
+        margin-left: 306px;
+    }
+}
